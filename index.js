@@ -20,11 +20,11 @@ checkPassword = async (username, plaintextPassword) => {
 
         // The result variable is a boolean. True means the user was valid.
         if (result) {
-            // Valid credentials
+            // Valid credentials matching username and password
             console.log(`\n⭐️ Welcome back, ${username}, you're a valid user! ⭐️\n`)
         }
         else {
-            // Invalid credentials
+            // Invalid credentials if the password is incorrect
             console.log(`🤨 I don't recognize you! Get out! 👋`)
         }
     }
